@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/gradient">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="@dimen/setting_re_padding"
+		android:gravity="start">
+
+		<ImageView
+			android:layout_height="@dimen/add_code_iv_height"
+			android:layout_width="match_parent"
+			android:src="@drawable/image_2"
+			android:layout_centerHorizontal="true"
+			android:id="@+id/testImageView1"/>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="@dimen/add_code_v_height"
+			android:layout_width="match_parent"
+			android:layout_below="@id/testImageView1"
+			android:id="@+id/testView1"
+			android:layout_marginTop="@dimen/add_code_v_marginTop"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/add_code_tv_1"
+			android:layout_below="@id/testView1"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentEnd="true"
+			android:padding="@dimen/add_code_tv_padding"
+			android:textStyle="bold"
+			android:id="@+id/testTextView1"
+			android:gravity="center"
+			android:textSize="@dimen/add_code_tv_textSize"
+			android:textColor="@color/accent"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/add_code_tv_2"
+			android:layout_below="@id/testTextView1"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentEnd="true"
+			android:padding="@dimen/add_code_tv_padding"
+			android:id="@+id/testTextView5"
+			android:layout_marginTop="@dimen/add_code_tv_marginTop"
+			android:textSize="@dimen/add_code_tv_textSize_2"
+			android:gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/add_code_tv_3"
+			android:layout_below="@id/testTextView5"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentEnd="true"
+			android:padding="@dimen/add_code_tv_padding"
+			android:id="@+id/testTextView6"
+			android:textSize="@dimen/add_code_tv_textSize_2"
+			android:gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/add_code_tv_faedback"
+			android:layout_below="@id/testTextView6"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentEnd="true"
+			android:textStyle="bold"
+			android:padding="@dimen/add_code_tv_padding"
+			android:id="@+id/testTextView7"
+			android:textSize="@dimen/add_code_tv_textSize_3"
+			android:gravity="start"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/add_code_tv_whatsapp"
+			android:layout_below="@id/testTextView7"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentEnd="true"
+			android:padding="@dimen/add_code_tv_padding"
+			android:id="@+id/testTextView8"
+			android:textSize="@dimen/add_code_tv_textSize_4"
+			android:gravity="start"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/add_code_tv_email"
+			android:layout_below="@id/testTextView8"
+			android:padding="@dimen/add_code_tv_padding"
+			android:id="@+id/testTextView9"
+			android:textSize="@dimen/add_code_tv_textSize_4"
+			android:gravity="start"
+			android:layout_alignParentEnd="true"/>
+        
+        
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/add_code_tv_email_text"
+            android:layout_below="@id/testTextView8"
+            android:textColor="@color/blue"
+            android:layout_alignBaseline="@id/testTextView9"
+            android:padding="@dimen/add_code_tv_padding"
+            android:id="@+id/add_code_tv_send_email"
+            android:layout_toStartOf="@id/testTextView9"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/add_code_tv_enter_code"
+			android:layout_below="@id/testTextView9"
+			android:gravity="center"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentEnd="true"
+			android:padding="@dimen/add_code_tv_padding"
+			android:id="@+id/testTextView2"
+			android:textSize="@dimen/add_code_tv_textSize_3"
+			android:layout_marginTop="@dimen/add_code_tv_marginTop_2"/>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="@dimen/add_code_v_height"
+			android:layout_width="match_parent"
+			android:layout_below="@id/testTextView2"
+			android:id="@+id/testView2"
+			android:layout_marginTop="@dimen/add_code_v_marginTop"
+			android:layout_marginBottom="@dimen/add_code_v_marginBottom"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_below="@id/testView2"
+			android:gravity="center|center_vertical|center_horizontal"
+			android:id="@+id/testLinearLayout1">
+
+			<ImageButton
+				android:layout_height="@dimen/add_code_ibtn_height"
+				android:layout_width="@dimen/add_code_ibtn_width"
+				android:src="@drawable/ic_left"
+				android:id="@+id/add_code_btn_check"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:layout_width="@dimen/add_code_et_width"
+				android:ems="10"
+				android:maxLength="6"
+				android:background="@color/white"
+				android:textColor="@color/dark_black"
+				android:id="@+id/add_code_et_code"
+				android:gravity="left"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/add_code_tv_code"
+				android:padding="@dimen/add_code_tv_padding_2"
+				android:textSize="@dimen/add_code_tv_textSize_3"
+				android:gravity="start"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="@dimen/add_code_v_height"
+			android:layout_width="match_parent"
+			android:layout_below="@id/testLinearLayout1"
+			android:id="@+id/testView3"
+			android:layout_marginTop="@dimen/add_code_v_marginTop"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/add_code_tv_name_app"
+			android:layout_below="@id/testView3"
+			android:id="@+id/testTextView3"
+			android:padding="@dimen/add_code_tv_padding"
+			android:layout_marginTop="@dimen/add_code_tv_marginTop_3"
+			android:layout_alignParentLeft="true"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/add_code_tv_creater"
+			android:layout_below="@id/testTextView3"
+			android:paddingStart="@dimen/add_code_tv_paddingStart"
+			android:layout_alignParentLeft="true"/>
+
+	</RelativeLayout>
+
+</ScrollView>
+

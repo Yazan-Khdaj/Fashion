@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@drawable/gradient">
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@drawable/image_2"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/activitystartscreenImageView1"/>
+
+	<ProgressBar
+		style="?android:attr/progressBarStyleLarge"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/activitystartscreenImageView1"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/activitystartscreenProgressBar1"
+		android:layout_marginTop="@dimen/start_screen_pr_marginTop"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Fashuion App_Alpha: 1.0.0"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/start_screen_tv_padding"
+		android:textColor="@color/accent"/>
+
+</RelativeLayout>
+

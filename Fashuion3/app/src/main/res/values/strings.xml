@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fashuion</string>
+
+    <string name="ware_view_et_model_hint">Model</string>
+    <string name="ware_view_et_color_hint">Color</string>
+    <string name="ware_view_et_prise_hint">Price</string>
+    <string name="ware_view_et_desc_hint">Description</string>
+    <string name="ware_view_et_date_hint">Date</string>
+
+    <string name="main_menu_search_title">Search</string>
+    <string name="main_menu_setting_title">Setting</string>
+    <string name="main_menu_abut_title">Abut</string>
+    <string name="main_menu_exit_title">Exit</string>
+
+    <string name="ware_view_menu_save_title">Save</string>
+    <string name="ware_view_menu_edit_title">Edit</string>
+    <string name="ware_view_menu_copy_title">Copy</string>
+    <string name="ware_view_menu_delete_title">Delete</string>
+
+    <string name="setting_tv_auto_theme">Auto Theme</string>
+    <string name="setting_tv_theme">Night Mode</string>
+    <string name="setting_tv_lan">Language</string>
+    <string name="setting_tv_show_copy">Add Shortcut</string>
+    <string name="setting_tv_show_list">Reticle Display</string>
+    <string name="setting_et_hint">Enter # To Add Model | $ To Add Price</string>
+    <string name="setting_btn_restar">Log out</string>
+    <string-array name="setting_sp_array">
+        <item>Choose Language</item>
+        <item>Arabic</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="loginAregister_et_email_hint">Email</string>
+    <string name="loginAregister_et_password_hint">Password</string>
+    <string name="login_btn_text">Login</string>
+    <string name="login_tv_text">Click here for register</string>
+
+    <string name="register_tv_text">Not Register?</string>
+    <string name="register_et_name_hint">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register_btn_text">Register</string>
+
+    <string name="name_error">Please Enter Your Name</string>
+    <string name="phone_error">Please Enter Your Phone Number</string>
+    <string name="email_error">Please Enter Your Email Address</string>
+    <string name="error_invalid_email">This Email Address Is Invalid</string>
+    <string name="password_error">Please Enter a Password</string>
+    <string name="error_invalid_password">Please Enter Password Above Six Digits</string>
+
+    <string name="main_dialog_title_exit">Exit !</string>
+    <string name="main_dialog_msg_exit">Are You Sure ?</string>
+    <string name="main_dialog_btn_yes_exit">Yes</string>
+    <string name="main_dialog_btn_no_exit">No</string>
+    <string name="main_back_toast">Press Again To Exit</string>
+
+    <string name="wareView_dialog_title_delete">Delete !</string>
+    <string name="wareView_dialog_msg_delete">Are You Sure ?</string>
+    <string name="wareView_dialog_btn_yes_delete">Yes</string>
+    <string name="wareView_dialog_btn_no_delete">No</string>
+    <string name="wareView_save_toast">Saved successfully</string>
+    <string name="wareView_edit_toast">Edited Success</string>
+    <string name="wareView_delete_toast">Deleted Success</string>
+    <string name="wareView_copy_toast">Copied Success</string>
+
+    <string name="setting_dialog_title_restar">Log out !</string>
+    <string name="setting_dialog_msg_restar">Are You Sure ?, You Will Lose Your Data</string>
+    <string name="setting_dialog_btn_yes_restar">Yes</string>
+    <string name="setting_dialog_btn_no_restar">No</string>
+
+    <string name="login_toast">Done Successfully</string>
+    <string name="login_rong_toast">Password or Email Wrong</string>
+    <string name="register_toast">Done Successfully</string>
+    <string name="register_notEmail_toast">This Invalid Email</string>
+
+    <string name="tutorials_dialog_btn_next">Next</string>
+    <string name="tutorials_dialog_title">Tutorials</string>
+    <string name="tutorials_dialog_msg1_copy">Use The # Sign To Get The Model</string>
+    <string name="tutorials_dialog_msg2_copy">Use The $ Sign To Get The Price</string>
+    <string name="tutorials_dialog_msg3_copy">Example: Hi, Price Of # Is $</string>
+    <string name="tutorials_dialog_msg_camera">Click on The Top Of The Screen To Add The Picture</string>
+    <string name="tutorials_dialog_msg_welcome">Welcome in Fashuion App</string>
+    <string name="tutorials_dialog_msg_input">Model and Price Should Not Be Empty</string>
+    <string name="tutorials_dialog_msg_day">You Can Use App Just</string>
+    <string name="tutorials_dialog_msg_day2">Day</string>
+    <string name="tutorials_dialog_rongPass_toast">Wrong Password</string>
+
+    <string name="dialog_tutorial_tv_ok_text">Ok</string>
+    <string name="dialog_tutorial_tv_next_text">Next</string>
+    <string name="dialog_tutorial_tv_show_text">No show</string>
+
+    <string name="defalt_user_name">User</string>
+
+    <!--تستخدم لمعرفة لغة الجهاز الحالية-->
+    <string name="lang">en</string>
+
+    <string name="add_code_tv_1">Dear User, The Period Of Use Has Expired</string>
+    <string name="add_code_tv_2">To Continue Using The Application, You Must Subscribe To The Monthly Package</string>
+    <string name="add_code_tv_3">The Cost Of The Monthly Subscription Is Only 1000 S.P</string>
+    <string name="add_code_tv_faedback">Feedback</string>
+    <string name="add_code_tv_whatsapp">WhatsApp: +963 982952798</string>
+    <string name="add_code_tv_email">Email:</string>
+    <string name="add_code_tv_email_text">Click To Send Me</string>
+    <string name="add_code_tv_enter_code">Enter Code</string>
+    <string name="add_code_tv_code">CODE:</string>
+    <string name="add_code_tv_name_app">Fashuion App 1.0.0</string>
+    <string name="add_code_tv_creater">YAZAN KHADJ</string>
+    
+    <string name="add_code_email_subject">Feedback</string>
+    
+    <string name="add_code_reRegister_toast">Subscribed Successfully</string>
+    <string name="add_code_error_toast">Did Not Find The Required</string>
+    
+    <string name="custom_dialog_pass_tv_addPass">Check Password</string>
+    <string name="custom_dialog_pass_btn_text">Check</string>
+    
+    <string name="custom_loading_dialog_text">Loading...</string>
+    
+    <string name="start_screen_text">Fashuion App_Alpha:1.0.0</string>
+
+</resources>

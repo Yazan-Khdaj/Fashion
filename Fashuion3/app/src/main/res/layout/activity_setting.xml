@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_collapseMode="pin"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/setting_re_padding">
+
+            <CheckBox
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/setting_cb_auto_theme"
+                android:checked="true"/>
+            
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/setting_tv_auto_theme"
+                android:layout_alignParentEnd="true"
+                android:layout_toStartOf="@id/setting_cb_auto_theme"
+                android:layout_alignBottom="@id/setting_cb_auto_theme"
+                android:gravity="center_vertical|end"
+                android:padding="@dimen/setting_tv_padding"
+                android:textSize="@dimen/setting_tv_textSize"/>      
+
+            <Switch
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/setting_sw_theme"
+                android:padding="@dimen/setting_sw_padding"
+                android:layout_below="@id/setting_cb_auto_theme"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/setting_tv_theme"
+                android:padding="@dimen/setting_tv_padding"
+                android:textSize="@dimen/setting_tv_textSize"
+                android:gravity="center_vertical|end"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@id/setting_sw_theme"
+                android:layout_toStartOf="@id/setting_sw_theme"/>
+
+            <View
+                android:background="?android:attr/dividerVertical"
+                android:layout_height="@dimen/setting_v_height"
+                android:layout_width="match_parent"
+                android:layout_below="@id/setting_sw_theme"
+                android:id="@+id/testView"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/setting_v_margin_top"/>
+
+            <Spinner
+                android:layout_height="@dimen/setting_sp_height"
+                android:layout_width="wrap_content"
+                android:id="@+id/setting_sp"
+                android:entries="@array/setting_sp_array"
+                android:layout_below="@id/testView"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/setting_tv_lan"
+                android:layout_alignBottom="@id/setting_sp"
+                android:gravity="center_vertical|end"
+                android:layout_toStartOf="@id/setting_sp"
+                android:layout_alignParentEnd="true"
+                android:padding="@dimen/setting_tv_padding"
+                android:textSize="@dimen/setting_tv_textSize"
+                android:id="@+id/activity_settingTextView"
+                android:layout_below="@id/testView"/>
+
+            <View
+                android:background="?android:attr/dividerVertical"
+                android:layout_height="@dimen/setting_v_height"
+                android:layout_width="match_parent"
+                android:layout_below="@id/activity_settingTextView"
+                android:id="@+id/activity_settingView3"/>
+
+            <CheckBox
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/activity_settingView3"
+                android:id="@+id/setting_cb_show_copy"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/setting_tv_show_copy"
+                android:layout_alignParentEnd="true"
+                android:layout_toStartOf="@id/setting_cb_show_copy"
+                android:layout_alignBottom="@id/setting_cb_show_copy"
+                android:gravity="center_vertical|end"
+                android:id="@+id/setting_tv_show_copy"
+                android:padding="@dimen/setting_tv_padding"
+                android:textSize="@dimen/setting_tv_textSize"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:textColorHint="@color/secondary_text"
+                android:layout_below="@id/setting_tv_show_copy"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:hint="@string/setting_et_hint"
+                android:layout_marginTop="@dimen/setting_et_margin_top"
+                android:id="@+id/setting_et_allow"
+                android:layout_marginBottom="@dimen/setting_et_margin_bottom"/>
+
+            <View
+                android:background="?android:attr/dividerVertical"
+                android:layout_height="@dimen/setting_v_height"
+                android:layout_width="match_parent"
+                android:layout_below="@id/setting_et_allow"
+                android:layout_alignParentStart="true"/>
+
+            <CheckBox
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/setting_et_allow"
+                android:layout_alignParentStart="true"
+                android:id="@+id/setting_cb_show_list"
+                android:checked="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/setting_tv_show_list"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/setting_tv_textSize"
+                android:gravity="center_vertical|end"
+                android:layout_toStartOf="@id/setting_cb_show_list"
+                android:layout_alignBottom="@id/setting_cb_show_list"
+                android:padding="@dimen/setting_tv_padding"
+                android:id="@+id/setting_tv_show_list"/>
+
+            <View
+                android:background="?android:attr/dividerVertical"
+                android:layout_height="@dimen/setting_v_height"
+                android:layout_width="match_parent"
+                android:layout_below="@id/setting_tv_show_list"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/setting_v_margin_top"
+                android:id="@+id/testView1"/>
+
+            <ImageButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_gradient_night"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:layout_below="@id/testView1"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/setting_ivbtn_margin_top"
+                android:id="@+id/setting_btn_restar"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/setting_btn_restar"
+                android:padding="@dimen/setting_tv_padding"
+                android:textSize="@dimen/setting_tv_textSize"
+                android:layout_below="@id/testView1"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_vertical|end"
+                android:layout_alignBottom="@id/setting_btn_restar"
+                android:layout_toStartOf="@id/setting_btn_restar"
+                android:id="@+id/testTextView1"/>
+
+            <View
+                android:background="?android:attr/dividerVertical"
+                android:layout_height="@dimen/setting_v_height"
+                android:layout_marginTop="@dimen/setting_v_margin_top"
+                android:layout_width="match_parent"
+                android:layout_below="@id/testTextView1"/>
+    
+        </RelativeLayout>       
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+

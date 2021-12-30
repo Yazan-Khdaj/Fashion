@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_fabtn_margin">15dp</dimen>
+
+    <dimen name="ware_view_ll_margin">16dp</dimen>
+    <dimen name="ware_view_abl_height">250dp</dimen>
+    <dimen name="ware_view_ctbl_ex_title_margin_start">15dp</dimen>
+    <dimen name="ware_view_ctbl_ex_title_margin_end">26dp</dimen>
+
+    <dimen name="custom_ware_cv_cardCornerRadius">10dp</dimen>
+    <dimen name="custom_ware_cv_cardElevation">5dp</dimen>
+    <dimen name="custom_ware_im_height">150dp</dimen>
+    <dimen name="custom_ware_tv_model_textSize">18sp</dimen>
+    <dimen name="custom_ware_tv_textSize">16sp</dimen>
+    <dimen name="custom_ware_tv_padding">9dp</dimen>
+
+    <!--تابعة لل custom_ware و ware_view-->
+    <dimen name="drawablePadding">4dp</dimen>
+
+    <dimen name="setting_re_padding">4dp</dimen>
+    <dimen name="setting_tv_padding">5dp</dimen>
+    <dimen name="setting_et_margin_bottom">4dp</dimen>
+    <dimen name="setting_et_margin_top">4dp</dimen>
+    <dimen name="setting_v_margin_top">4dp</dimen>
+    <dimen name="setting_tv_textSize">16dp</dimen>
+    <dimen name="setting_sw_padding">10dp</dimen>
+    <dimen name="setting_ivbtn_margin_top">5dp</dimen>
+    <dimen name="setting_sp_height">50dp</dimen>
+    <dimen name="setting_v_height">1dp</dimen>
+    
+    <dimen name="login_rl_padding">16dp</dimen>
+    <dimen name="login_cv_height">350dp</dimen>
+    <dimen name="login_cv_margin">5dp</dimen>
+    <dimen name="login_cv_padding">10dp</dimen>
+    <dimen name="login_cv_ccr">5dp</dimen>
+    <dimen name="login_cv_ce">5dp</dimen>
+    <dimen name="login_ll_margin">5dp</dimen>
+    <dimen name="login_til_marginTop">5dp</dimen>
+    <dimen name="login_et_marginTop">10dp</dimen>
+    <dimen name="login_et_paddingStart">5dp</dimen>
+    <dimen name="login_btn_height">50dp</dimen>
+    <dimen name="login_btn_margin">20dp</dimen>
+    <dimen name="login_btn_textSize">16sp</dimen>
+    <dimen name="login_tv_marginTop">5dp</dimen>
+    <dimen name="login_tv_textSize">16sp</dimen>
+    <dimen name="login_iv_width">100dp</dimen>
+    <dimen name="login_iv_height">100dp</dimen>
+    <dimen name="login_iv_marginTop">-50dp</dimen>
+    <dimen name="login_iv_padding">15dp</dimen>
+    
+    <dimen name="register_sv_padding">16dp</dimen>
+    <dimen name="register_cv_margin">5dp</dimen>
+    <dimen name="register_cv_padding">10dp</dimen>
+    <dimen name="register_cv_ccr">5dp</dimen>
+    <dimen name="register_cv_ce">5dp</dimen>
+    <dimen name="register_ll_margin">5dp</dimen>
+    <dimen name="register_til_marginTop">5dp</dimen>
+    <dimen name="register_et_marginTop">10dp</dimen>
+    <dimen name="register_et_paddingStart">5dp</dimen>
+    <dimen name="register_btn_height">50dp</dimen>
+    <dimen name="register_btn_margin">20dp</dimen>
+    <dimen name="register_btn_textSize">16sp</dimen>
+    <dimen name="register_tv_marginTop">5dp</dimen>
+    <dimen name="register_tv_marginBottom">5dp</dimen>
+    <dimen name="register_tv_textSize">16sp</dimen>
+    
+    <dimen name="style_menu_textSize">16dp</dimen>
+    
+    <dimen name="dialog_cl_width">300dp</dimen>
+    <dimen name="dialog_iv_marginTop">4dp</dimen>
+    <dimen name="dialog_iv_marginRight">4dp</dimen>
+    <dimen name="dialog_tv_padding">4dp</dimen>
+    <dimen name="dialog_tv_padding_2">8dp</dimen>
+    <dimen name="dialog_tv_margin">4dp</dimen>
+    <dimen name="dialog_tv_textSize">20sp</dimen>
+    <dimen name="dialog_tv_textSize_2">16sp</dimen>
+    <dimen name="dialog_cb_margin">4dp</dimen>
+    <dimen name="dialog_tv_marginTop">11dp</dimen>
+    <dimen name="dialog_tv_marginLeft">-5dp</dimen>
+    <dimen name="dialog_tv_textSize_3">9sp</dimen>
+    <dimen name="dialog_tv_marginRight">20dp</dimen>
+    
+    <dimen name="add_code_iv_height">100dp</dimen>
+    <dimen name="add_code_v_height">1dp</dimen>
+    <dimen name="add_code_v_marginTop">4dp</dimen>
+    <dimen name="add_code_tv_padding">8dp</dimen>
+    <dimen name="add_code_tv_textSize">25sp</dimen>
+    <dimen name="add_code_tv_marginTop">10dp</dimen>
+    <dimen name="add_code_tv_textSize_2">18sp</dimen>
+    <dimen name="add_code_tv_textSize_3">16sp</dimen>
+    <dimen name="add_code_tv_textSize_4">14sp</dimen>
+    <dimen name="add_code_tv_marginTop_2">5dp</dimen>
+    <dimen name="add_code_wv_width">80dp</dimen>
+    <dimen name="add_code_wv_marginEnd">100dp</dimen>
+    <dimen name="add_code_v_marginBottom">5dp</dimen>
+    <dimen name="add_code_ibtn_height">35dp</dimen>
+    <dimen name="add_code_ibtn_width">35dp</dimen>
+    <dimen name="add_code_tv_padding_2">6dp</dimen>
+    <dimen name="add_code_tv_marginTop_3">30dp</dimen>
+    <dimen name="add_code_tv_paddingStart">5dp</dimen>
+    <dimen name="add_code_et_width">100dp</dimen>
+    
+    <dimen name="custom_dialog_pass_iv_marginTop">4dp</dimen>
+    <dimen name="custom_dialog_pass_iv_marginRight">4dp</dimen>
+    <dimen name="custom_dialog_pass_et_marginTop">10dp</dimen>
+    <dimen name="custom_dialog_pass_btn_height">50dp</dimen>
+    <dimen name="custom_dialog_pass_btn_margin">20dp</dimen>
+    <dimen name="custom_dialog_pass_btn_textSize">16sp</dimen>
+    
+    <dimen name="custom_loading_dialog_tv_padding">8dp</dimen>
+    <dimen name="custom_loading_dialog_tv_marginTop">8dp</dimen>
+    
+    <dimen name="start_screen_pr_marginTop">100dp</dimen>
+    <dimen name="start_screen_tv_padding">10dp</dimen>
+    
+</resources>

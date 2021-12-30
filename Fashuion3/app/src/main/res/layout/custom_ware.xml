@@ -1,0 +1,95 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="@dimen/custom_ware_cv_cardCornerRadius"
+    app:cardElevation="@dimen/custom_ware_cv_cardElevation"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:layout_height="@dimen/custom_ware_im_height"
+            android:layout_width="match_parent"
+            android:src="@drawable/image_1"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/custom_ware_image"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Model"
+            android:textColor="@color/primary_text"
+            android:layout_below="@id/custom_ware_image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:drawableStart="@drawable/ic_model"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/custom_ware_tv_model_textSize"
+            android:id="@+id/custom_ware_tv_model"
+            android:paddingStart="@dimen/custom_ware_tv_padding"
+            android:paddingTop="@dimen/custom_ware_tv_padding"
+            android:paddingBottom="@dimen/custom_ware_tv_padding"
+            android:paddingEnd="@dimen/custom_ware_tv_padding"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Color"
+            android:layout_below="@id/custom_ware_tv_model"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/secondary_text"
+            android:drawableStart="@drawable/ic_color"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:layout_weight="1.0"
+            android:textSize="@dimen/custom_ware_tv_textSize"
+            android:gravity="center_vertical"
+            android:padding="@dimen/custom_ware_tv_padding"
+            android:id="@+id/custom_ware_tv_color"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Date"
+            android:inputType="date"
+            android:layout_below="@id/custom_ware_tv_color"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:drawableStart="@drawable/ic_date"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:textColor="@color/secondary_text"
+            android:layout_weight="1.0"
+            android:textSize="@dimen/custom_ware_tv_textSize"
+            android:gravity="center_vertical"
+            android:padding="@dimen/custom_ware_tv_padding"
+            android:id="@+id/custom_ware_tv_date"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Prise"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_below="@id/custom_ware_tv_date"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:drawableStart="@drawable/ic_cash"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:textColor="@color/primary_text"
+            android:layout_weight="1.0"
+            android:textSize="@dimen/custom_ware_tv_model_textSize"
+            android:padding="@dimen/custom_ware_tv_padding"
+            android:id="@+id/custom_ware_tv_prise"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

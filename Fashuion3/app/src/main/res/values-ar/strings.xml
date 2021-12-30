@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fashuion</string>
+
+    <string name="ware_view_et_model_hint">الموديل</string>
+    <string name="ware_view_et_color_hint">الون</string>
+    <string name="ware_view_et_prise_hint">السعر</string>
+    <string name="ware_view_et_desc_hint">الوصف</string>
+    <string name="ware_view_et_date_hint">التاريخ</string>
+
+    <string name="main_menu_search_title">بحث</string>
+    <string name="main_menu_setting_title">الاعدادات</string>
+    <string name="main_menu_abut_title">حول التطبيق</string>
+    <string name="main_menu_exit_title">خروج</string>
+
+    <string name="ware_view_menu_save_title">حفظ</string>
+    <string name="ware_view_menu_edit_title">تعديل</string>
+    <string name="ware_view_menu_delete_title">حذف</string>
+
+    <string name="setting_tv_auto_theme">مظهر تلقائي</string>
+    <string name="setting_tv_theme">المظهر الليلي</string>
+    <string name="setting_tv_lan">لغة التطبيق</string>
+    <string name="setting_tv_show_copy">اضافة اختصار</string>
+    <string name="setting_tv_show_list">عرض شبكي</string>
+    <string name="setting_et_hint">ادخل # لاضافة الموديل | $ لاضافة السعر</string>
+    <string name="setting_btn_restar">تسجيل خروج</string>
+    <string-array name="setting_sp_array">
+        <item>اختار لغة</item>
+        <item>العربية</item>
+        <item>الانكليزية</item>
+    </string-array>
+
+    <string name="loginAregister_et_email_hint">البريد الالكتروني</string>
+    <string name="loginAregister_et_password_hint">الرمز السري</string>
+    <string name="login_btn_text">تسجيل</string>
+    <string name="login_tv_text">اضغط هنا للاشتراك</string>
+
+    <string name="register_tv_text">لا تريد الاشتراك؟</string>
+    <string name="register_et_name_hint">الاسم</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="register_btn_text">اشتراك</string>
+
+    <string name="name_error">رجاءً ادخل اسمك</string>
+    <string name="phone_error">رجاءً ادخل رقم هاتفك</string>
+    <string name="email_error">رجاءً ادخل بريدك الالكتروني</string>
+    <string name="error_invalid_email">هذا البريد غير صحيح</string>
+    <string name="password_error">رجاءً ادخل رمزك السري</string>
+    <string name="error_invalid_password">رجاءً ادخل رمز سري فوق ستة خانات</string>
+
+    <string name="main_dialog_title_exit">خروج !</string>
+    <string name="main_dialog_msg_exit">هل انت متأكد ؟</string>
+    <string name="main_dialog_btn_yes_exit">نعم</string>
+    <string name="main_dialog_btn_no_exit">لا</string>
+    <string name="main_back_toast">اضغط مرة اخرى للخروج</string>
+
+    <string name="wareView_dialog_title_delete">حذف !</string>
+    <string name="wareView_dialog_msg_delete">هل انت متأكد ؟</string>
+    <string name="wareView_dialog_btn_yes_delete">نعم</string>
+    <string name="wareView_dialog_btn_no_delete">لا</string>
+    <string name="wareView_save_toast">تم الحفظ</string>
+    <string name="wareView_edit_toast">تم التعديل</string>
+    <string name="wareView_delete_toast">تم الحذف</string>
+    <string name="wareView_copy_toast">تم النسخ</string>
+
+    <string name="setting_dialog_title_restar">تسجيل الخروج !</string>
+    <string name="setting_dialog_msg_restar">هل انت متأكد ؟, سيتم حذف جميع بياناتك</string>
+    <string name="setting_dialog_btn_yes_restar">نعم</string>
+    <string name="setting_dialog_btn_no_restar">لا</string>
+
+    <string name="login_toast">تم تسجيل الدخول</string>
+    <string name="login_rong_toast">الرمز او البريد الالكتروني غير صحيح</string>
+    <string name="register_toast">تم الاشتراك</string>
+    <string name="register_notEmail_toast">هذا البريد غير صالح</string>
+
+    <string name="tutorials_dialog_btn_next">التالي</string>
+    <string name="tutorials_dialog_title">تعليمات</string>
+    <string name="tutorials_dialog_msg1_copy">استخدم علامة # لاحضار الموديل</string>
+    <string name="tutorials_dialog_msg2_copy">استخدم علامة $ لاحضار السعر</string>
+    <string name="tutorials_dialog_msg3_copy">مثال: مرحباً, سعر # هو $</string>
+    <string name="tutorials_dialog_msg_camera">اضغط على الجزء العلوي من الشاشة لاختيار الصورة</string>
+    <string name="tutorials_dialog_msg_welcome">مرحبا بك </string>
+    <string name="tutorials_dialog_msg_input">يجب عليك عدم ترك الموديل و السعر فارغين</string>
+    <string name="tutorials_dialog_msg_day">يمكنك استخدام التطبيق </string>
+    <string name="tutorials_dialog_msg_day2">يوم</string>
+    <string name="tutorials_dialog_rongPass_toast">الرمز غير صحيح</string>
+    
+    <string name="dialog_tutorial_tv_ok_text">تم</string>
+    <string name="dialog_tutorial_tv_next_text">التالي</string>
+    <string name="dialog_tutorial_tv_show_text">عدم العرض</string>
+    
+    <string name="defalt_user_name">مستخدم</string>
+    
+    <string name="lang">ar</string>
+    
+    <string name="add_code_tv_1">عزيزي المستخدم انتهت مدة الاستخدام</string>
+    <string name="add_code_tv_2">لاكمال استخدام التطبيق و الحفاظ على بياناتك يجب الاشتراك في الباقة الشهرية</string>
+    <string name="add_code_tv_3">تكلفة الاشتراك بالباقة الشهرية فقط 1000 ل.س</string>
+    <string name="add_code_tv_faedback">للاستفسار يرجى التواصل عبر:</string>
+    <string name="add_code_tv_whatsapp">واتساب: 982952798 963+</string>
+    <string name="add_code_tv_email">البريد الالكتروني:</string>
+    <string name="add_code_tv_email_text">اضغط للمراسلة</string>
+    <string name="add_code_tv_enter_code">ادخل الكود</string>
+    <string name="add_code_tv_code">الكود:</string>
+    <string name="add_code_tv_name_app">Fashuion App 1.0.0</string>
+    <string name="add_code_tv_creater">YAZAN KHADJ</string>
+    
+    <string name="add_code_email_subject">استفسار</string>
+    
+    <string name="add_code_reRegister_toast">تم تجديد الاشتراك</string>
+    <string name="add_code_error_toast">لم يعثر على تطبيق لارسال البريد الالكتروني</string>
+    
+    <string name="custom_dialog_pass_tv_addPass">التحقق من الرمز</string>
+    <string name="custom_dialog_pass_btn_text">تأكيد</string>
+    
+    <string name="custom_loading_dialog_text">انتظار...</string>
+    
+    <string name="start_screen_text">Fashuion App_Alpha:1.0.0</string>
+    
+</resources>
