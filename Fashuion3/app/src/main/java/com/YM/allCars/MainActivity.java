@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity
     public static final String LANG = "lang";
     public static final String THEME = "theme";
     public static final String AUTO_THEME = "autotheme";
-    private final String BAST_EMAIL = "fashuion3@gmail.com";
-    private final String BAST_PASS = "yazankh1234554321";
+    private final String BAST_EMAIL = "fashion@gmail.com";//exp
+    private final String BAST_PASS = "1234554321";//exp
 
     @Override
     protected void onCreate( Bundle savedInstanceState )
